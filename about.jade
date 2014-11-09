@@ -34,8 +34,15 @@ head
                 li: a(href="mulberry.html") MulBerry
                 li: a(href="mountainbridge.html") Mountain Bridge
                 li.active: a(href="estrellavista.html") Estrella Vista
-    .container
-      .row
+            li.dropdown
+              a.dropdown-toggle(href="#", data-toggle="dropdown")
+                | Online Brochures
+                b.caret
+              ul.dropdown-menu
+                 li: a href="pecanbrochure.html") The Pecans
+                 li: a href="mulberrybrochure.html") Mulberry
+                 li.active: a(href="mountainbridgebrochure.html") Mountain Bridge
+      .ro
         .col-lg-12
           h1.page-header
             | About
