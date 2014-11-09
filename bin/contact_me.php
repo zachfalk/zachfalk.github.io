@@ -1,4 +1,5 @@
 <?php
+// PHP makes my skin curl. BLECH.
 // check if fields passed are empty
 if(empty($_POST['name'])  		||
    empty($_POST['phone']) 		||
