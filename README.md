@@ -2,7 +2,7 @@
 
 #### Known Bugs
 - "About" nav item will buffer on left when active
-- "Pecans" home carosel has images of different heights
+- "Pecans" home carousel has images of different heights
 - Need to change navbar and nav dropdown items to "active" for active page
 
 #### Etcetera
