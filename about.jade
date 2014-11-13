@@ -1,6 +1,6 @@
 doctype html
 html(lang="en")
-head
+  head
     title Blandford Homes
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
@@ -11,8 +11,8 @@ head
     link(href="css/modern-business.css", rel="stylesheet")
     link(href="font-awesome-4.1.0/css/font-awesome.min.css", rel="stylesheet", type="text/css")
   body
-    nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
-      .container
+    .container
+      nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
         .navbar-header
           button.navbar-toggle(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1")
             span.sr-only Toggle navigation
@@ -33,7 +33,7 @@ head
                 li: a(href="pecan.html") The Pecans
                 li: a(href="mulberry.html") MulBerry
                 li: a(href="mountainbridge.html") Mountain Bridge
-                li.active: a(href="estrellavista.html") Estrella Vista
+                li: a(href="estrellavista.html") Estrella Vista
             li.dropdown
               a.dropdown-toggle(href="#", data-toggle="dropdown")
                 | Online Brochures
@@ -41,8 +41,8 @@ head
               ul.dropdown-menu
                  li: a href="pecanbrochure.html") The Pecans
                  li: a href="mulberrybrochure.html") Mulberry
-                 li.active: a(href="mountainbridgebrochure.html") Mountain Bridge
-      .ro
+                 li: a(href="mountainbridgebrochure.html") Mountain Bridge
+      .row
         .col-lg-12
           h1.page-header
             | About
@@ -56,9 +56,9 @@ head
         .col-md-6
           h2 About Blandford Homes
           p
-            | We have homes fgfd  fgfdgh dgdh yjyy j yjj ytj ytj jyjyjfghghghfg/p
-            | We build homes gfdgfdgfgfdgfgdfgfdgdfgf
-            | We Sell homes fdggggggggggggggggggggggggggggggggggggggg ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+            | We have homes lorem ipsum so on and so forth lorem
+            | We build homes lorem ipsum so on and so forth lorem
+            | We Sell homes lorem ipsum so on and so forth lorem
       .row
         .col-lg-12
           h2.page-header The Blandford Team
