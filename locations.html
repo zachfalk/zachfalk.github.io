@@ -87,7 +87,6 @@
                 <p>  <i class="fa fa-phone"></i>       <abbr title="Phone">P</abbr>: (480) 987-7820</p>
                 <p>  <i class="fa fa-envelope-o"></i>  <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a></p>
                 <p>  <i class="fa fa-clock-o"></i>     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
-                
             </div>
             <div class="col-md-3">
                 <h3>Mountain Bridge</h3>
@@ -121,16 +120,18 @@
             <div class="col-md-12">
                <h3 class="text-center">Send us a Message</h3>
                <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="col-md-2">
-                            <select class="form-control">
-                                <option>Select Community</option>
-                                <option>Pecan</option>
-                                <option>Mulberry</option>
-                                <option>Mountain Bridge</option>
-                                <option>Estrella Vista</option>
-                            </select>
-                        </div>
                     <div class="col-md-6">
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                 <select class="form-control">
+                                    <option>Select Community</option>
+                                    <option>Pecan</option>
+                                    <option>Mulberry</option>
+                                    <option>Mountain Bridge</option>
+                                    <option>Estrella Vista</option>
+                                  </select>
+                            </div>
+                         </div>
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Full Name:</label>
@@ -155,7 +156,7 @@
                         <div class="control-group form-group">
                             <div class="controls">
                                 <label>Message:</label>
-                                <textarea rows="8" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                             </div>
                         </div>
                     </div>
